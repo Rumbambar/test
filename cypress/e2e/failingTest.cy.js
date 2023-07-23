@@ -6,5 +6,4 @@ it('order test', () => {
     failingPage.selectCategoryNotebook().click();
     failingPage.selectProcessorFilter().click();
     failingPage.expectTheNumberOfGoods();
-
 })
